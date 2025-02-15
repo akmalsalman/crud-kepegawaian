@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(135deg, #092135, #4e8aa5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.form-control {
+    border-radius: 10px;
+}
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+.btn-primary {
+    background-color: #6caac7;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #4281aa;
+}
